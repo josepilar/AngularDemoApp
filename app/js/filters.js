@@ -18,11 +18,11 @@ eventsApp.filter('durations', function () {
 eventsApp.filter("levels", function () {
     return function (level) {
         switch (level) {
-        case 0:
+        case "introductory":
             return "img/easy.png";
-        case 1:
+        case "intermediate":
             return "img/intermediate.png";
-        case 2:
+        case "advanced":
             return "img/advanced.png";
         }
     }
