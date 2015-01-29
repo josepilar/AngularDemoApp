@@ -1,0 +1,33 @@
+{
+  "name": "AngularApp",
+  "version": "0.0.1",
+  "description": "Simple Angular test application",
+  "main": "angularApp.js",
+  "scripts": {
+    "start":"node angularApp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josepilar/AngularApp"
+  },
+  "keywords": [
+    "Angular",
+    "nodejs"
+  ],
+  "author": "Jose-Pilar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josepilar/AngularApp/issues"
+  },
+
+  "dependencies": {
+    "express": "4.8.0",
+    "body-parser" : "1.5.2",
+    "jade": "1.5.0",
+    "node-uuid": "~1.4.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

@@ -1,2 +1,1 @@
-cd app
-node ..\scripts\web-server.js
+supervisor web-server.js
