@@ -14,18 +14,6 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + '/app/index.html');
 });
 
-/*app.get('/NewEvent', function (req, res) {
-    res.sendFile(__dirname + '/app/NewEvent.html');
-});*/
-
-app.get('/EditProfile', function (req, res) {
-    res.sendFile(__dirname + '/app/EditProfile.html');
-});
-
-app.get('/CacheSample', function (req, res) {
-    res.sendFile(__dirname + '/app/CacheSample.html');
-});
-
 app.get('/events/:id', function (req, res) {
     res.sendFile(__dirname + '/app/data/event/' + req.params.id + ".json");
 });

@@ -6,6 +6,7 @@ eventsApp.controller('EditEventController', function EditEventController($scope,
     $scope.saveEvent = function (event, newEventForm) {
         if (newEventForm.$valid) {
             eventData.save(event);
+            window.location = "/";
         }
     };
 

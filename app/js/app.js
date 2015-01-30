@@ -16,7 +16,17 @@ var eventsApp = angular.module('eventsApp', ["ngResource", "ngRoute"])
             controller: "EventController"
         });
         
+        $routeProvider.when("/editProfile", {
+            templateUrl: "/templates/EditProfile.html",
+            controller: "EditProfileController"
+        });
+        
+        $routeProvider.when("/notFound", {
+            templateUrl: "/templates/NotFound.html",
+            controller: "NotFoundController"
+        });
+        
         $routeProvider.otherwise({
-            redirectTo: "/events"
+            redirectTo: "/notFound"
         });
     });
